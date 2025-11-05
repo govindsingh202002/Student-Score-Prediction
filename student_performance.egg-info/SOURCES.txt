@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/Exception.py
+src/Logger.py
+src/Utils.py
+src/__init__.py
+src/component/__init__.py
+src/component/data_ingestion.py
+student_performance.egg-info/PKG-INFO
+student_performance.egg-info/SOURCES.txt
+student_performance.egg-info/dependency_links.txt
+student_performance.egg-info/top_level.txt

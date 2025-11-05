@@ -1,0 +1,13 @@
+[ 2025-11-05 23:10:01,254 ] 11 Logger - INFO - creating data ingestion config files in artifacts folder
+[ 2025-11-05 23:10:01,698 ] 24 Logger - INFO - Data transformation config completed
+[ 2025-11-05 23:10:01,698 ] 26 Logger - INFO - Data Ingestion object created
+[ 2025-11-05 23:10:01,698 ] 21 Logger - INFO - data ingestion intiated
+[ 2025-11-05 23:10:01,742 ] 24 Logger - INFO - Dataset read completed as a Dataframe
+[ 2025-11-05 23:10:01,758 ] 28 Logger - INFO - full dataset saved at artifacts/data.csv
+[ 2025-11-05 23:10:01,778 ] 34 Logger - INFO - Train and Test data splitted and saved into corresponded .csv files
+[ 2025-11-05 23:10:01,796 ] 69 Logger - INFO - Initiated data ingestion to get train and test dataset path
+[ 2025-11-05 23:10:01,797 ] 29 Logger - INFO - Data transfer object creation started
+[ 2025-11-05 23:10:01,884 ] 40 Logger - INFO - numerical and categorical columns list created
+[ 2025-11-05 23:10:01,884 ] 59 Logger - INFO - numerical and categorical pipeline created for data transformation
+[ 2025-11-05 23:10:02,050 ] 80 Logger - INFO - train and test data sucesfully loaded
+[ 2025-11-05 23:10:02,086 ] 16 Logger - ERROR - Error occured in python script name [C:\Users\Rajera\Desktop\python\student_performance\src\component\data_transformation.py] line number [88] error message[A given column is not a column of the dataframe]

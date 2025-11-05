@@ -1,0 +1,11 @@
+[ 2025-11-05 23:02:07,056 ] 11 Logger - INFO - creating data ingestion config files in artifacts folder
+[ 2025-11-05 23:02:10,022 ] 24 Logger - INFO - Data transformation config completed
+[ 2025-11-05 23:02:10,022 ] 26 Logger - INFO - Data Ingestion object created
+[ 2025-11-05 23:02:10,022 ] 21 Logger - INFO - data ingestion intiated
+[ 2025-11-05 23:02:10,086 ] 24 Logger - INFO - Dataset read completed as a Dataframe
+[ 2025-11-05 23:02:10,127 ] 28 Logger - INFO - full dataset saved at artifacts/data.csv
+[ 2025-11-05 23:02:10,157 ] 34 Logger - INFO - Train and Test data splitted and saved into corresponded .csv files
+[ 2025-11-05 23:02:10,158 ] 69 Logger - INFO - Initiated data ingestion to get train and test dataset path
+[ 2025-11-05 23:02:10,158 ] 29 Logger - INFO - Data transfer object creation started
+[ 2025-11-05 23:02:10,192 ] 16 Logger - ERROR - Error occured in python script name [C:\Users\Rajera\Desktop\python\student_performance\src\component\data_transformation.py] line number [34] error message['Index' object is not callable]
+[ 2025-11-05 23:02:10,192 ] 16 Logger - ERROR - Error occured in python script name [C:\Users\Rajera\Desktop\python\student_performance\src\component\data_transformation.py] line number [70] error message[Error occured in python script name [C:\Users\Rajera\Desktop\python\student_performance\src\component\data_transformation.py] line number [34] error message['Index' object is not callable]]

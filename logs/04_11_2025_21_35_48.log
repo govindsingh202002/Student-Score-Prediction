@@ -1,0 +1,5 @@
+[ 2025-11-04 21:35:52,015 ] 11 Logger - INFO - creating data ingestion config files in artifacts folder
+[ 2025-11-04 21:35:52,018 ] 21 Logger - INFO - data ingestion intiated
+[ 2025-11-04 21:35:52,035 ] 24 Logger - INFO - Dataset read completed as a Dataframe
+[ 2025-11-04 21:35:52,081 ] 28 Logger - INFO - full dataset saved at artifacts/data.csv
+[ 2025-11-04 21:35:52,135 ] 34 Logger - INFO - Train and Test data splitted and saved into corresponded .csv files

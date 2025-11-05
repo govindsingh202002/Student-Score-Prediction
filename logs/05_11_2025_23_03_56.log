@@ -1,0 +1,13 @@
+[ 2025-11-05 23:04:00,725 ] 11 Logger - INFO - creating data ingestion config files in artifacts folder
+[ 2025-11-05 23:04:01,165 ] 24 Logger - INFO - Data transformation config completed
+[ 2025-11-05 23:04:01,167 ] 26 Logger - INFO - Data Ingestion object created
+[ 2025-11-05 23:04:01,167 ] 21 Logger - INFO - data ingestion intiated
+[ 2025-11-05 23:04:01,253 ] 24 Logger - INFO - Dataset read completed as a Dataframe
+[ 2025-11-05 23:04:01,292 ] 28 Logger - INFO - full dataset saved at artifacts/data.csv
+[ 2025-11-05 23:04:01,325 ] 34 Logger - INFO - Train and Test data splitted and saved into corresponded .csv files
+[ 2025-11-05 23:04:01,326 ] 69 Logger - INFO - Initiated data ingestion to get train and test dataset path
+[ 2025-11-05 23:04:01,328 ] 29 Logger - INFO - Data transfer object creation started
+[ 2025-11-05 23:04:01,400 ] 40 Logger - INFO - numerical and categorical columns list created
+[ 2025-11-05 23:04:01,401 ] 59 Logger - INFO - numerical and categorical pipeline created for data transformation
+[ 2025-11-05 23:04:01,456 ] 78 Logger - INFO - train and test data sucesfully loaded
+[ 2025-11-05 23:04:01,457 ] 16 Logger - ERROR - Error occured in python script name [C:\Users\Rajera\Desktop\python\student_performance\src\component\data_transformation.py] line number [81] error message['math']

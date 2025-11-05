@@ -1,0 +1,13 @@
+[ 2025-11-05 23:15:17,984 ] 11 Logger - INFO - creating data ingestion config files in artifacts folder
+[ 2025-11-05 23:15:18,221 ] 24 Logger - INFO - Data transformation config completed
+[ 2025-11-05 23:15:18,221 ] 26 Logger - INFO - Data Ingestion object created
+[ 2025-11-05 23:15:18,221 ] 21 Logger - INFO - data ingestion intiated
+[ 2025-11-05 23:15:18,257 ] 24 Logger - INFO - Dataset read completed as a Dataframe
+[ 2025-11-05 23:15:18,276 ] 28 Logger - INFO - full dataset saved at artifacts/data.csv
+[ 2025-11-05 23:15:18,302 ] 34 Logger - INFO - Train and Test data splitted and saved into corresponded .csv files
+[ 2025-11-05 23:15:18,303 ] 71 Logger - INFO - Initiated data ingestion to get train and test dataset path
+[ 2025-11-05 23:15:18,304 ] 29 Logger - INFO - Data transfer object creation started
+[ 2025-11-05 23:15:18,350 ] 41 Logger - INFO - numerical and categorical columns list created
+[ 2025-11-05 23:15:18,350 ] 60 Logger - INFO - numerical and categorical pipeline created for data transformation
+[ 2025-11-05 23:15:18,386 ] 80 Logger - INFO - train and test data sucesfully loaded
+[ 2025-11-05 23:15:18,442 ] 16 Logger - ERROR - Error occured in python script name [C:\Users\Rajera\Desktop\python\student_performance\src\component\data_transformation.py] line number [90] error message[cannot concatenate object of type '<class 'numpy.ndarray'>'; only Series and DataFrame objs are valid]
