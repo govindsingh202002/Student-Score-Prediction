@@ -106,10 +106,3 @@ class DataTransformation:
             raise CustomException(e,sys)
 
 
-def main():
-    obj=DataTransformation()
-    a,b,c=obj.initiate_data_transformation()
-    print(a,b,c)
-
-if __name__=="__main__":
-    main()

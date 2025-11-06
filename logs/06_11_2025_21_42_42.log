@@ -1,0 +1,47 @@
+[ 2025-11-06 21:43:13,887 ] 11 Logger - INFO - creating data ingestion config files in artifacts folder
+[ 2025-11-06 21:43:38,329 ] 24 Logger - INFO - Data transformation config completed
+[ 2025-11-06 21:43:38,330 ] 26 Logger - INFO - Data Ingestion object created
+[ 2025-11-06 21:43:38,330 ] 21 Logger - INFO - data ingestion intiated
+[ 2025-11-06 21:43:38,399 ] 24 Logger - INFO - Dataset read completed as a Dataframe
+[ 2025-11-06 21:43:38,438 ] 28 Logger - INFO - full dataset saved at artifacts/data.csv
+[ 2025-11-06 21:43:38,468 ] 34 Logger - INFO - Train and Test data splitted and saved into corresponded .csv files
+[ 2025-11-06 21:43:38,469 ] 71 Logger - INFO - Initiated data ingestion to get train and test dataset path
+[ 2025-11-06 21:43:38,470 ] 29 Logger - INFO - Data transfer object creation started
+[ 2025-11-06 21:43:38,502 ] 41 Logger - INFO - numerical and categorical columns list created
+[ 2025-11-06 21:43:38,503 ] 60 Logger - INFO - numerical and categorical pipeline created for data transformation
+[ 2025-11-06 21:43:38,540 ] 80 Logger - INFO - train and test data sucesfully loaded
+[ 2025-11-06 21:43:38,751 ] 15 Logger - INFO - at location             0         1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18  math_score
+0    0.030791  0.434053  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  1.0  0.0  1.0          62
+1    0.930290  0.964701  1.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0  0.0          66
+2    1.345443  1.163694  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0  0.0  0.0  1.0          79
+3   -0.176786 -0.162925  0.0  1.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  1.0  0.0  0.0  1.0          61
+4   -0.384363 -0.759904  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0          73
+..        ...       ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...         ...
+795  2.106557  2.092328  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  1.0  0.0  1.0          87
+796 -0.453555 -0.494580  0.0  1.0  0.0  0.0  1.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0          69
+797 -0.522747 -1.025228  1.0  0.0  0.0  0.0  1.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0          53
+798 -1.491438 -1.025228  0.0  1.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0  0.0  1.0  0.0          50
+799  1.483827  1.362687  1.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0          85
+
+[800 rows x 20 columns], we have saved this .csv file succesfully
+[ 2025-11-06 21:43:38,851 ] 15 Logger - INFO - at location             0         1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18  math_score
+0    1.137866  1.031032  1.0  0.0  0.0  0.0  1.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0          91
+1   -0.245978  0.301391  1.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0  0.0  1.0  0.0          53
+2    0.238367  0.235060  0.0  1.0  0.0  0.0  0.0  1.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0          80
+3    0.515136  0.301391  0.0  1.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0  0.0  0.0  1.0          74
+4    0.930290  0.633046  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  1.0  1.0  0.0          84
+..        ...       ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...         ...
+195 -0.868708 -0.826235  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  1.0  0.0  1.0  0.0          52
+196 -0.937901 -1.025228  0.0  1.0  0.0  0.0  0.0  0.0  1.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  1.0  0.0          62
+197  0.791905  0.500384  1.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0  0.0  0.0  1.0          74
+198  0.515136  0.367722  1.0  0.0  0.0  0.0  1.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0          65
+199  0.307559  0.235060  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  1.0  1.0  0.0          61
+
+[200 rows x 20 columns], we have saved this .csv file succesfully
+[ 2025-11-06 21:43:38,855 ] 27 Logger - INFO - at location <_io.BufferedWriter name='artifacts\\preprocessing_data_transformer.pkl'> we have saved this .pkl file succesfully
+[ 2025-11-06 21:43:38,855 ] 98 Logger - INFO - Data transformatiob completed
+[ 2025-11-06 21:43:38,857 ] 52 Logger - INFO - all models definition created
+[ 2025-11-06 21:43:38,857 ] 84 Logger - INFO - all models cross validation parameters created
+[ 2025-11-06 21:43:38,928 ] 101 Logger - INFO - train and test data loaded and splited into dependent and independent
+[ 2025-11-06 21:46:42,703 ] 116 Logger - INFO - model trained and report created
+[ 2025-11-06 21:46:42,749 ] 27 Logger - INFO - at location <_io.BufferedWriter name='artifacts\\trained_model.pkl'> we have saved this .pkl file succesfully
