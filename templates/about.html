@@ -1,8 +1,46 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<div class="page-container">
-    <h2>Welcome to about page</h2>
+<div class="page-container about-container">
+
+    <h1>About This Project</h1>
+
+    <p>
+        The <strong>Student Exam Performance Prediction</strong> system is a machine learning powered web 
+        application that estimates a student's <strong>Math Score</strong> based on academic and demographic inputs.
+        The project demonstrates how predictive analytics can be used to support early guidance and academic improvement.
+    </p>
+
+    <h2>Purpose</h2>
+    <p>
+        The purpose of this project is to help teachers, mentors, and students identify potential academic challenges 
+        before exams occur, enabling early action toward improvement.
+    </p>
+
+    <h2>How It Works</h2>
+    <ul>
+        <li>User submits student-related information through the form.</li>
+        <li>Input data is preprocessed (encoding + scaling).</li>
+        <li>A trained regression model predicts the math score.</li>
+        <li>The predicted score is displayed on-screen.</li>
+    </ul>
+
+    <h2>Technology Stack</h2>
+    <ul>
+        <li><strong>Backend:</strong> Python, Flask</li>
+        <li><strong>Model:</strong>Machine learning regression models such as LinearRegression, XGBOOST, RandomForest </li>
+        <li><strong>Frontend:</strong> HTML, CSS (Jinja2 templates)</li>
+    </ul>
+
+    <h2>GitHub Repository</h2>
+    <p>
+        You can explore the complete source code, model training pipeline, and data processing steps using the link below:
+    </p>
+
+    <a class="repo-link" href="https://github.com/govindsingh202002/Student-Score-Prediction" target="_blank">
+        View Project on GitHub
+    </a>
+
 </div>
 
 {% endblock %}
