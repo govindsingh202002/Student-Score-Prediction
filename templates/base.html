@@ -1,0 +1,31 @@
+<!-- this tell browser that this is an HTML5 documnet means tell brouwser the version of HTML the page uses-->
+<!DOCTYPE html>
+<!--Start the html tag,  define the language of the document -->
+<html lang="en">
+
+<!-- this contain metadata/infomation about page and this will be not visible on page -->
+<head>
+    <!-- Define the character encoding UTF-8 contains all the character means all languages,numbers,emoji,symbols -->
+    <meta charset="UTF-8">
+    <!-- set the title of the page that appears in the browser tab -->
+    <title>Student Performance</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+
+<!-- everthig which is visible on the page -->
+<body>
+<!-- Header goes here -->
+{%  include 'header.html'  %}
+
+<!-- main code goes here -->
+<main>
+    <!-- page specofoc content here -->
+    {% block content %}{% endblock %}
+</main>
+
+<!-- footer goes here -->
+{% include 'footer.html' %}
+
+</body>
+
+</html>
